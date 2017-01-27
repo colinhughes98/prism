@@ -1,0 +1,10 @@
+﻿<Window x:Class="Betting.Views.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mvvm="http://prismlibrary.com/"
+        Title="Main" Height="300" Width="300"
+        mvvm:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <TextBlock Text="{Binding Message}"/>
+    </Grid>
+</Window>

@@ -12,17 +12,18 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Practices.Prism.Mvvm;
 
 namespace Betting
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Shell.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Shell : Window, IView
     {
-        public MainWindow()
+        public Shell()
         {
             InitializeComponent();
-        }
+        }       
     }
 }
